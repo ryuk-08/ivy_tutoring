@@ -141,6 +141,22 @@
 
   /* Contact */
 
+  .header-img3{
+    position: relative;
+    background: url(img/img10.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+   }
+
+  .header-img3 h3{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
 .contact-us {
   max-width: 600px;
   width: 96%;

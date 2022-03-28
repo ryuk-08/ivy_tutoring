@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('header.html')
+            $('#footer').load('footer.html')
+        })
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+
+    <section class="header-img3">
+        <div class="container">
+             <div class="text-center">
+            <h3>Contact Us</h3>
+             </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="title-box">
+            <h5>CONTACT US</h5>
+        </div>
+        <form action="https://formspree.io/f/xknyvjbe" method="POST" class="contactForm">
+            <!-- <div id="sendmessage">
+                Your message has been sent. Thank you!
+            </div> -->
+            <div class="inner">
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Your Name" name="Name" required />
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Your Email" name="Email" required />
+                </div>
+                <div class="form-group">
+                    <label>Phone:</label>
+                    <input type="text" placeholder="Phone" name="Phone" required />
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea rows="5" placeholder="Message" name="Message" required></textarea>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit">
+                        Send Message
+                    </button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <div id="footer"></div>
+</body>
+
+</html>
