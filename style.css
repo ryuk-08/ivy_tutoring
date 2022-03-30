@@ -216,4 +216,14 @@
   color: white;
   background-color: rgb(2, 160, 160);
 }
+
+.header-img9{
+  position: relative;
+  background: url(img/img9.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+ }
     
