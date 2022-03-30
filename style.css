@@ -99,7 +99,7 @@
 .footer{
   padding: 90px;
   padding-bottom: 90px;
-  background-color: #dcdcdc;
+  background-color: wheat;
 }
 
  .footer a{
@@ -141,21 +141,21 @@
 
   /* Contact */
 
-  .header-img3{
+.header-img3{
     position: relative;
-    background: url(img/img10.jpg);
+    background: url(img/img8.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-   }
+}
 
-  .header-img3 h3{
+.header-img3 h3{
     font-size: 50px;
     color: #ffffff;
     font-weight: bold;
-  }
+}
 
 .contact-us {
   max-width: 600px;
@@ -216,4 +216,13 @@
   color: white;
   background-color: rgb(2, 160, 160);
 }
-    
+    /* Log in  */
+.header-img4{
+  position: relative;
+  background: url(img/img10.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
