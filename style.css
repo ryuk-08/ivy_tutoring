@@ -233,4 +233,19 @@
     display: flex;
     align-items: center;
 }
-      
+
+/* log in */
+
+.header-img10{
+  position: relative;
+  background: url(img/img10.jpg);
+}
+.header-img10{
+  position: relative;
+  background: url(img/img10.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
