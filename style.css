@@ -49,10 +49,10 @@
     padding-bottom: 50px; 
   }
   
-  .img-thumbnail{
+  .img{
     align-items: center;
     margin: 20px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px; 
   }
   
   .info{
