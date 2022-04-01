@@ -72,21 +72,29 @@
   }
   
   .process .container{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-  }
+    font-family: sans-serif;
+   }
   
   .process .fa-solid{
         padding-bottom: 20px;
-        font-size: 80px;
-        color: gray;
-      }  
+        font-size: 90px;
+        color: #778899;
+  }
   
   .card{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-radius: 15px;
-  }
+    background-color:#fffafa;
+    border-color: #fffafa;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+   }
+
+  .card h5{
+    font-weight: bold;
+    font-size: 25px;
+   }
   
   .process-1 {
     text-align: center;
