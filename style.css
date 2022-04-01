@@ -227,11 +227,9 @@
     color: white;
     background-color: rgb(2, 160, 160);
   }
-      /*Subjects */
-.header-img9{
-    position: relative;
-    background: url(img/img9.jpg);
-}
+
+/*Subjects */
+ 
 .header-img9{
     position: relative;
     background: url(img/img9.jpg);
@@ -241,6 +239,13 @@
     display: flex;
     align-items: center;
 }
+
+.header-img9 h3{
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 
 /* log in */
 
